@@ -1,0 +1,98 @@
+body
+{
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  flex-direction: column;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+h2 {
+text-align: center;
+}
+
+.header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  align-items: center;
+  z-index: 1;
+}
+
+.teacozyimg {
+  padding-left: 10px;
+  padding-top: 10px;
+  height: 50px;
+}
+
+.navigation {
+  display: inline-block;
+  justify-content: space-around;
+  width: 400px;
+  align-items: center;
+  padding-left: 700px;
+}
+
+.mission {
+  background-image: url("../images/missionbackground.jpg");
+  height: 700px;
+  width: 1200px;
+  text-align: center;
+  position: relative;
+  top: 69px;
+}
+
+.missiontext {
+  justify-content: center;
+  background-color: black;
+}
+
+.menutop {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.menubottom {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.menuimg {
+  height: 200px;
+  width: 300px;
+}
+
+.locations {
+  background-image: url("../images/cup.jpg");
+  height: 500px;
+}
+
+.locationstext {
+  padding-bottom: 15px;
+}
+
+.locationboxes {
+  display: inline-flex;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  justify-content: space-around;
+}
+
+.contactinfo {
+  text-align: center;
+}
+
+.copyright {
+  text-align: left;
+  padding-left: 20px;
+}
